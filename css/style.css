@@ -1,14 +1,19 @@
 /* General Page CSS */
 
-body{
-    width: 99%;
+body {
+    width: 100%;
     background: rgba(295,255,220,.8);
     font-family: 'georgia', cursive, sans-serif;
 }
 
 /* Header CSS */
 
-h1#name{     
+header{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1#name {     
     border-radius: 153px 153px 153px 153px; 
     border:double black 5px;
     text-align: center;
@@ -16,36 +21,38 @@ h1#name{
     font-size: 48px
 }
 
-img.circle{
+img.circle {
     border-radius: 200px;
     box-shadow: -3px 4px 7px -1px rgba(0,0,0,0.75);
     border: 4px solid #000000;
     padding: 1px;
 }
 
-figure#headshot{
+figure#headshot {
     text-align: center;
 }
 
 
 /* Footer CSS */
 
-footer{
+footer {
     position: relative;
-    top:30px;
     border-radius: 153px; 
     border:double black 5px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-nav{
+nav {
     text-align: center;
 }
 
-li>a{ 
+li>a { 
     color: black;
 }
 
-li.link{
+li.link {
     font-family: 'milkshakeregular', cursive, sans-serif;
     font-size: 24px ;
     display: inline;
@@ -55,24 +62,54 @@ li.link{
 
 /* Home Page */
 
-figure.logo{ 
+figure.logo { 
+    display: inline-block;
+    margin: 0px 0px 10px 0px;
+}
+
+figure.logo#css { 
     display: inline-block;
     margin: 0px;
+    margin: 0px 0px 60px 0px;
 }
 
-
+section.home {
+    text-align: center;
+}
 /*About*/
 
-section{text-align: center;
+section.about {
+    text-align: center;
+    max-width: 66%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+ol {
+    text-align: center;
+    max-width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/*Form*/
+p#linkedin {
+    margin: 0px 0px 40px 0px;
+}
+    
 
-form{
-    width: 40%;
-    max-width: 400px;
-    margin: 0% 35%;
+/*Contact*/
+
+p#quote{
+    max-width: 60%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+
+div.forms {
+max-width: 33%;
+margin-left: auto;
+margin-right: auto
 }
     
 fieldset {
@@ -86,11 +123,11 @@ legend {
     margin-bottom: 15px ;
 }
 
-input{
+input {
     width: 250px;
 }
 
-textarea{
+textarea {
     width: 250px;
     min-height: 200px;
 }
@@ -115,20 +152,29 @@ input.submit {
     
 }
 
-blockquote{ 
+blockquote { 
     text-align: center;
 }
 
-label{ margin: 5px;
+label { margin: 5px;
     float:left;
 } 
  
-div.clear{
+div.clear {
     clear:both;
     margin: 10px;
 }
 
-
-
+button{
+    border: 1px solid;
+    border-color: rgba(0,0,0,.45);
+    background-color: rgba(295,255,220,.45);
+    font-size: 16px;
+    font-family: 'times new roman', serif;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 153px;
+    box-shadow: 0px 6px 180px rgba(0,0,0,0.75);
+}
 
 
